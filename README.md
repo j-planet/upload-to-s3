@@ -5,9 +5,15 @@ Uploading a file to S3 with the React-Meteor stack.
 ## Setting up AWS
 1. Create an AWS S3 **bucket**
 2. Retrieve your AWS **credentials**
+<br>
 [![s.png](https://s29.postimg.org/700k0uqxj/image.png)](https://postimg.org/image/blwo97cgj/)
+<br>
+
 3. **Edit CORS Configuration** for your bucket to enable XHR stuff.
+<br>
+
 [![Screenshot at Dec 12 12-12-24.png](https://s30.postimg.org/d8uirfn29/Screenshot_at_Dec_12_12_12_24.png)](https://postimg.org/image/pnharrekd/)
+<br>
 <br>Here's a sample CORS configuration:
 <br>
 <br>
@@ -57,6 +63,8 @@ The logic is quite straight-forward. But it took me a while to realize that node
 3. Install packages by running the script `scripts/npmMeteorSetup.sh`.
 
 Then simply run `meteor` in the directory, and BOOM you are ready to go. <br>It should look like this:
+<br>
+
 [![Screenshot at Dec 12 12-01-45.png](https://s27.postimg.org/o41nax3o3/Screenshot_at_Dec_12_12_01_45.png)](https://postimg.org/image/e6qmhuw27/)
 
 # Stack
