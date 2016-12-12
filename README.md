@@ -37,7 +37,7 @@ Uploading a file to S3 with the React-Meteor stack.
      </CORSRule>
  </CORSConfiguration>`
  
-4. Edit **bucket policy** so that uploaded files can be retrieved later without requiring signing the URL every single time.
+Edit **bucket policy** so that uploaded files can be retrieved later without requiring signing the URL every single time.
 <br>Here's a sample policy:<br><br>
 `{
  	"Version": "2012-10-17",
@@ -95,7 +95,7 @@ Yes, I am bald now, thanks to all the hair-pulling.
     
 ## Sources
 * Many thanks to the guys at FounderLab for creating [DropzoneS3Uploader](https://github.com/founderlab/react-dropzone-s3-uploader), which is used on the client-side for this project.
-* [Picker](https://github.com/meteorhacks/picker)for Meteor server-side routing.
+* [Picker](https://github.com/meteorhacks/picker) for Meteor server-side routing.
 * [Meteor Npm](https://github.com/meteorhacks/npm) for using Node modules on Meteor server.
 
 
