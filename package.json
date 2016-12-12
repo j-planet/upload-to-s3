@@ -1,0 +1,27 @@
+{
+  "name": "meteor-tutorial-3-markdown",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.7.13",
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
+    "codemirror": "^5.17.0",
+    "express": "^4.14.0",
+    "markdown": "^0.5.0",
+    "meteor-node-stubs": "~0.2.0",
+    "node-uuid": "^1.4.7",
+    "pluralize": "^3.0.0",
+    "react": "^15.3.2",
+    "react-addons-pure-render-mixin": "^15.3.2",
+    "react-codemirror": "^0.2.6",
+    "react-dom": "^15.3.2",
+    "react-dropzone": "^3.7.3",
+    "react-dropzone-s3-uploader": "^0.8.1",
+    "react-modal": "^1.6.2",
+    "react-router": "^2.6.1",
+    "react-s3-uploader": "^3.3.0"
+  }
+}
